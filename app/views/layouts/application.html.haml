@@ -3,10 +3,10 @@
   %head
     %title Carnegie Mellon Sigma Chi
     / stylesheets
-    = stylesheet_link_tag %w(screen), :media => 'screen, projection'
-    = stylesheet_link_tag %w(print), :media => 'print'
+    = stylesheet_link_tag 'screen', :media => 'screen, projection'
+    = stylesheet_link_tag 'print', :media => 'print'
     / [if IE]
-      = stylesheet_link_tag %w(ie), :media => 'screen, projection'
+      = stylesheet_link_tag 'ie', :media => 'screen, projection'
     
     / javascripts
     = javascript_include_tag %w(html5 jquery fancybox application)
