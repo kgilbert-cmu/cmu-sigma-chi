@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-SigmaChi::Application.config.secret_token = 'da1a21b520a50058994b7fe48d1332fb6e96950241dfb0cae7383cc8fbaec3b8b89d232fce72a8b9e8d2ba313289be9afeb59588f877f082c84c76f9c08bb94a'
+SigmaChi::Application.config.secret_token = '71348d7bc49532f29c517c6a1b77feaf0dc1411808ab4edd574bc58a3d53396d2cdc69c02955cf890fbcce02270657515bb8bddfa172bb2efccda49b0497bd68'
