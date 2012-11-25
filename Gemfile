@@ -1,4 +1,5 @@
 source :rubygems
+ruby '1.9.3'
 
 gem 'foreman'
 gem 'haml', '~> 3.1.7'
