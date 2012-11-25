@@ -1,3 +1,3 @@
-Sigma Chi Alpha Colony Website
-==============================
+Sigma Chi Lambda Pi
+===================
 More information coming soon...
