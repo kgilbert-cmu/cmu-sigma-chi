@@ -3,17 +3,14 @@
   %head
     %title Carnegie Mellon Sigma Chi
     / stylesheets
-    = stylesheet_link_tag 'screen', :media => 'screen, projection'
-    = stylesheet_link_tag 'print', :media => 'print'
-    / [if IE]
-      = stylesheet_link_tag 'ie', :media => 'screen, projection'
-    
+    = stylesheet_link_tag 'application'
+
     / javascripts
-    = javascript_include_tag %w(html5 jquery fancybox application)
-    
+    = javascript_include_tag 'application'
+
     / csrf
     = csrf_meta_tags
-  
+
   %body
     / header
     %header
@@ -21,20 +18,20 @@
         .wrap
           .translucent
           %a#logo{ :href => root_path }
-          
+
           / main navigation
           = render partial: 'layouts/main_navigation'
-          
+
     / content
     %section
       #wrapper
         .wrap
           #content
             = yield
-    
+
     / clearfix
     .clear
-    
+
     / footer
     %footer
       #footer
@@ -44,4 +41,4 @@
               .content
                 %h3= link.humanize
                 = render partial: "layouts/footer/#{link}"
-    
+
