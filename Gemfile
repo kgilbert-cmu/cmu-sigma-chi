@@ -4,7 +4,7 @@ ruby '1.9.3'
 gem 'foreman'
 gem 'haml', '~> 3.1.7'
 gem 'puma', '~> 1.6.3'
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.11'
 
 group :assets do
   gem 'coffee-rails', '~> 3.2.2'
